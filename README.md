@@ -68,3 +68,65 @@ pip install -r requirements.txt
 
 # Run server
 uvicorn main:app --reload
+
+
+Frontend
+cd PaperTrade/frontend
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+# Usage
+
+- Open the frontend in your browser (http://localhost:5173 by default).
+
+- Sign up using your email and password. Complete OTP verification.
+
+- Access your dashboard to view balances, holdings, and transaction history.
+
+- Simulate buying and selling stocks to practice trading strategies.
+
+- Track portfolio performance in real-time and analyze historical trades.
+
+# Scope & Purpose
+
+## PaperTrade aims to be:
+
+- A learning platform for beginners and enthusiasts to practice trading.
+
+-  risk-free environment to understand stock market dynamics.
+
+### A foundation for future enhancements like AI/ML-based trading recommendations and analytics.
+
+### A portfolio management tool for users to test strategies before investing real money.
+
+# Policies
+
+- Data Privacy: No plain text storage of passwords or sensitive user data.
+
+- Transaction Accuracy: All trade records are timestamped and stored reliably.
+
+- Security: JWT and OTP mechanisms ensure only authorized access.
+
+- Open-Source Contribution: Encourages collaboration and feature enhancement.
+
+# Future Aims
+
+- Integrate real-time stock market APIs for live trading simulations.
+
+- Implement AI/ML-based trading suggestions based on historical trends.
+
+- Enhance UI/UX with analytics dashboards and performance charts.
+
+- Add social features like leaderboards and collaborative trading challenges.
+
+# Contributing
+
+## Contributions are welcome! Open issues, submit pull requests, or suggest enhancements. Follow clean code practices and maintain modular design.
+
+# License
+
+-- This project is licensed under the MIT License.
